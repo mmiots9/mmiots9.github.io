@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     background-color: #212121 ;
     font-family: 'montserrat', sans-serif;
@@ -175,7 +180,7 @@ ul {
 }
 
 .project-container {
-    background-color: #F6F6F4;
+    background-color: white;
     border: 0.01vw solid #2C2A2F;
     border-radius: 1.2vw;
     float: left;
