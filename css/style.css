@@ -1,0 +1,297 @@
+/* tag selectors */
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    background-color: #212121 ;
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+}
+
+footer {
+    background-color: #403E41;
+}
+
+h1, h2 {
+    color: #FBD666;
+}
+
+header {
+    display: block;
+    margin-bottom: 2.5vw;
+}
+
+hr {
+    border: none;
+    border-top: 1vw dotted #403E41;
+    background-color: #2C2A2F;
+    clear: both;
+    margin: auto;
+    min-width: 4.16vw;
+    width: 10vw;
+}
+
+p, li{
+    color: #F6F6F4;
+    font-size: 1.2vw;
+    margin-top: 0.4vw;
+}
+
+table {
+    width: 2.1vw;
+    margin: auto 0.06vw auto 0.06vw;
+}
+
+ul {
+    margin: 0 0 0.06vw 0;
+}
+
+/* class selectors */
+
+.coding-language-td {
+    width: 15%;
+}
+
+.coding-language-td p {
+    margin-right: 2.8vw;
+    text-align: right;
+    width: 90%;
+}
+
+.container-main-title {
+    font-size: 3vw;
+    margin: 0 0 2vw 0;
+    text-align: center;
+}
+
+.div-container {
+    margin: 3vw 0vw 3vw 0vw;
+    clear: both;
+}
+
+.job-description-cell {
+    margin-left: 4%;
+    width: 90%;
+}
+.job-description-cell p, 
+.job-description-cell li {
+    font-size: 1.1vw;
+}
+
+.job-location {
+    font-size: 1.3vw;
+    margin: 0.6vw 0 0 0;
+}
+
+.job-main-activity-title {
+    margin: 0.6vw 0 0 0;
+}
+
+.job-period {
+    margin-top: 0.9vw;
+    text-align: center;
+}
+
+.job-period-col {
+    vertical-align: top;
+    width: 20%;
+}
+
+.job-table {
+    width: 90%;
+    margin: auto;
+}
+
+.job-title {
+    color: #B7D6F8;
+    font-size: 1.6vw;
+    margin: 0.5vw auto;
+}
+
+.level-bar {
+    display: inline-block;
+    height: 0.6vw;
+    margin-bottom: 0.1vw;
+    width: 5vw;
+}
+
+.level-text {
+    display: inline-block;
+    margin-left: 0.5vw;
+}
+
+.main {
+    background-color: #2C2A2F;
+    margin: 0 15vw;
+}
+
+.navbar {
+    border-bottom: 0.01vw solid #585B5D;
+    height: 3.75vw;
+    position: fixed;
+    width: 70vw;
+}
+
+.navbar ul {
+    background-color: #3E3D3F;
+    list-style-type: none;
+    
+    overflow: hidden;
+    padding: 0;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    color: #F6F6F4;
+    display: block;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 0.8vw 1vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #FBD666;
+}
+
+.page-title {
+    font-size: 4.5vw;
+    margin: 0 auto 2.5vw auto;
+    text-align: center;
+    width: 90%;
+}
+
+.profile-picture {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+.project-container {
+    background-color: #F6F6F4;
+    border: 0.01vw solid #2C2A2F;
+    border-radius: 1.2vw;
+    float: left;
+    height: 20vw;
+    margin: 0.5% 0 1.5% 4.5vw;
+    text-align: center;
+    width: 12vw;
+    
+}
+
+.project-description {
+    color: #212121;
+    font-size: 1vw;
+    margin-top: 3%;
+    width: 90%;
+
+}
+
+.project-image {
+    display: block;
+    margin: 6% auto 4% auto;
+    height: 30%;
+}
+
+.project-title {
+    font-size: 1.3vw;
+}
+
+.second-column-coding-skill {
+    line-height: 1vw;
+}
+
+
+.social {
+    overflow: auto;
+    display: block;
+    width: 19.5vw;
+}
+
+.social svg{
+    color: #bdbdbd;
+    float: left;
+    margin: 2vw 0vw 2vw 1.5vw;
+    width: 3vw;
+}
+
+/* id selectors */
+#advanced-bar {
+    background-color: green;
+}
+
+#advanced-text {
+    color: green;
+}
+
+#base-bar {
+    background-color: red;
+}
+
+#base-text {
+    color: red;
+}
+
+#coding-skills-table {
+    width: 100%;
+}
+
+#coding-skills-table tr {
+    height: 2vw;
+}
+
+#credits {
+    font-size: 0.7vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+#header-img {
+    height: 100%;
+    width: 100%;
+    margin-top: 3.75vw;
+}
+
+#hi {
+    font-size: 3vw;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#intermediate-bar {
+    background-color: darkorange;
+}
+
+#intermediate-text {
+    color: darkorange;
+}
+
+#last-left {
+    padding-left: 2vw;
+}
+
+#last-right {
+    padding-right: 2vw;
+}
+
+#my-description {
+    font-size: 1.4vw;
+    margin: 2vw auto;
+    text-align: center;
+    width: 80%;
+}
+
+#my-projects-container{
+    overflow: auto;
+}
+
+#whoami-container {
+    display: block;
+    margin-top: 2%;
+}
