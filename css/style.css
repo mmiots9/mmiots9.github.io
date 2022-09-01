@@ -27,32 +27,27 @@ h1, h2 {
 
 header {
     display: block;
-    margin-bottom: 2.5vw;
+    margin-bottom: 2.25rem;
 }
 
 hr {
     border: none;
-    border-top: 1vw dotted #403E41;
+    border-top: 0.9rem dotted #403E41;
     background-color: #2C2A2F;
     clear: both;
     margin: auto;
-    min-width: 4.16vw;
-    width: 10vw;
+    min-width: 4rem;
+    width: 9rem;
 }
 
 p, li{
     color: #F6F6F4;
-    font-size: 1.2vw;
-    margin-top: 0.4vw;
-}
-
-table {
-    width: 2.1vw;
-    margin: auto 0.06vw auto 0.06vw;
+    font-size: 1rem;
+    margin-top: 0.2rem;
 }
 
 ul {
-    margin: 0 0 0.06vw 0;
+    margin: 0 0 0.5rem 0;
 }
 
 /* class selectors */
@@ -62,19 +57,19 @@ ul {
 }
 
 .coding-language-td p {
-    margin-right: 2.8vw;
+    margin-right: 2.5rem;
     text-align: right;
     width: 90%;
 }
 
 .container-main-title {
-    font-size: 3vw;
-    margin: 0 0 2vw 0;
+    font-size: 2rem;
+    margin: 0 0 1.8rem 0;
     text-align: center;
 }
 
 .div-container {
-    margin: 3vw 0vw 3vw 0vw;
+    margin: 2.8rem 0rem 2.8rem 0rem;
     clear: both;
 }
 
@@ -84,20 +79,21 @@ ul {
 }
 .job-description-cell p, 
 .job-description-cell li {
-    font-size: 1.1vw;
+    font-size: 0.8rem;
 }
 
-.job-location {
-    font-size: 1.3vw;
-    margin: 0.6vw 0 0 0;
+p.job-location {
+    font-size: 0.9rem;
+    margin: 0.5rem 0 0 0;
 }
 
 .job-main-activity-title {
-    margin: 0.6vw 0 0 0;
+    margin: 0.5rem 0 0 0;
 }
 
 .job-period {
-    margin-top: 0.9vw;
+    font-size: 0.8rem;
+    margin-top: 0.75rem;
     text-align: center;
 }
 
@@ -113,20 +109,20 @@ ul {
 
 .job-title {
     color: #B7D6F8;
-    font-size: 1.6vw;
-    margin: 0.5vw auto;
+    font-size: 1.1rem;
+    margin: 0.45rem auto;
 }
 
 .level-bar {
     display: inline-block;
-    height: 0.6vw;
-    margin-bottom: 0.1vw;
-    width: 5vw;
+    height: 0.5rem;
+    margin-bottom: 0.08rem;
+    width: 10%;
 }
 
 .level-text {
     display: inline-block;
-    margin-left: 0.5vw;
+    margin-left: 0.45rem;
 }
 
 .main {
@@ -134,16 +130,16 @@ ul {
 }
 
 .navbar {
-    border-bottom: 0.01vw solid #585B5D;
-    height: 3.75vw;
+    border-bottom: 0.1rem solid #585B5D;
+    height: 3.25rem;
     position: fixed;
-    width: 100vw;
+    width: 100%;
 }
 
 .navbar ul {
     background-color: #3E3D3F;
     list-style-type: none;
-    
+    min-height: 3.15rem;
     overflow: hidden;
     padding: 0;
 }
@@ -155,22 +151,15 @@ ul {
 .navbar li a {
     color: #F6F6F4;
     display: block;
-    font-size: 1.5vw;
+    font-size: 1.2rem;
     font-weight: bold;
-    padding: 0.8vw 1vw;
+    padding: 0.71rem 0.6rem;
     text-align: center;
     text-decoration: none;
 }
 
 .navbar li a:hover {
     color: #FBD666;
-}
-
-.page-title {
-    font-size: 4.5vw;
-    margin: 0 auto 2.5vw auto;
-    text-align: center;
-    width: 90%;
 }
 
 .profile-picture {
@@ -181,20 +170,19 @@ ul {
 
 .project-container {
     background-color: white;
-    border: 0.01vw solid #2C2A2F;
-    border-radius: 1.2vw;
+    border: 2px solid #2C2A2F;
+    border-radius: 25px;
     float: left;
-    height: 20vw;
-    margin: 0.5% 0 1.5% 4.1vw;
+    height: 20rem;
+    margin: 2rem 4%;
     text-align: center;
-    width: 15vw;
-    
+    width: 42%;
 }
 
 .project-description {
     color: #212121;
-    font-size: 1vw;
-    margin-top: 3%;
+    font-size: 1.1rem;
+    margin-top: 1%;
     width: 90%;
 
 }
@@ -206,25 +194,24 @@ ul {
 }
 
 .project-title {
-    font-size: 1.3vw;
+    font-size: 1.3rem;
 }
 
 .second-column-coding-skill {
-    line-height: 1vw;
+    line-height: 1rem;
 }
-
 
 .social {
     overflow: auto;
     display: block;
-    width: 19.5vw;
+    width: 30%;
 }
 
 .social svg{
     color: #bdbdbd;
     float: left;
-    margin: 2vw 0vw 2vw 1.5vw;
-    width: 3vw;
+    margin: 4% 0% 2% 4%;
+    width: 20%;
 }
 
 /* id selectors */
@@ -249,23 +236,23 @@ ul {
 }
 
 #coding-skills-table tr {
-    height: 2vw;
+    height: 1.8rem;
 }
 
 #credits {
-    font-size: 0.7vw;
-    padding-bottom: 1vw;
+    font-size: 0.7rem;
+    padding: 0.5rem 0rem;
     text-align: center;
 }
 
 #header-img {
     height: 100%;
     width: 100%;
-    margin-top: 3.75vw;
+    margin-top: 3.25rem;
 }
 
 #hi {
-    font-size: 3vw;
+    font-size: 2.75rem;
     margin-top: 2%;
     text-align: center;
 }
@@ -279,16 +266,16 @@ ul {
 }
 
 #last-left {
-    padding-left: 2vw;
+    padding-left: 1rem;
 }
 
 #last-right {
-    padding-right: 2vw;
+    padding-right: 1rem;
 }
 
 #my-description {
-    font-size: 1.4vw;
-    margin: 2vw auto;
+    font-size: 1.3rem;
+    margin: 1.3rem auto;
     text-align: center;
     width: 80%;
 }
@@ -302,17 +289,59 @@ ul {
     margin-top: 2%;
 }
 
-@media only screen and (min-width: 600px) {
+
+
+/* media queries */
+
+@media only screen and (min-width: 481px) {
+    .container-main-title {
+            font-size: 2.8rem;
+        }
+
+    .job-title {
+        font-size: 1.5rem;
+    }
+
+    .job-description-cell p,
+    .job-description-cell li {
+        font-size: 1rem;
+    }
+
+    p.job-location {
+        font-size: 1.1rem;
+    }
+
+    .job-period {
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) {
+    .project-container {
+        margin: 0.5% 0 1.5% 4%;
+        width: 20%;
+    }
+
+    .social {
+        overflow: auto;
+        display: block;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
     .main {
-        margin: 0 15vw;
+        margin: 0 10%;
     }
 
     .navbar {
-        width: 70vw;
+        width: 80%;
     }
 
     .project-container {
-        margin: 0.5% 0 1.5% 4.5vw;
-        width: 12vw;
+        height: 24rem;
+        margin: 0.5% 0 1.5% 2.4%;
+        width: 22%;
     }
 }
