@@ -173,7 +173,7 @@ p.job-location {
     border: 2px solid #2C2A2F;
     border-radius: 25px;
     float: left;
-    height: 20rem;
+    height: 16rem;
     margin: 2rem 4%;
     text-align: center;
     width: 42%;
@@ -181,7 +181,7 @@ p.job-location {
 
 .project-description {
     color: #212121;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-top: 1%;
     width: 90%;
 
@@ -194,7 +194,7 @@ p.job-location {
 }
 
 .project-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .second-column-coding-skill {
@@ -314,13 +314,26 @@ p.job-location {
     .job-period {
         font-size: 1.1rem;
     }
+
+    .project-title {
+        font-size: 1.3rem;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+    }
+    
     
 }
 
 @media only screen and (min-width: 769px) {
     .project-container {
-        margin: 0.5% 0 1.5% 4%;
-        width: 20%;
+        height: 20rem;
+        margin: 0.5% 0 1.5% 7%;
+        width: 24%;
+    }
+    .project-description {
+        font-size: 1rem;
     }
 
     .social {
@@ -340,7 +353,7 @@ p.job-location {
     }
 
     .project-container {
-        height: 24rem;
+        height: 20rem;
         margin: 0.5% 0 1.5% 2.4%;
         width: 22%;
     }
