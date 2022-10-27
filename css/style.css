@@ -216,19 +216,19 @@ p.job-location {
 
 /* id selectors */
 #advanced-bar {
-    background-color: green;
+    background-color: #008F00;
 }
 
 #advanced-text {
-    color: green;
+    color: #008F00;
 }
 
 #base-bar {
-    background-color: red;
+    background-color: #70FFD2;
 }
 
 #base-text {
-    color: red;
+    color: #70FFD2;
 }
 
 #coding-skills-table {
@@ -258,11 +258,11 @@ p.job-location {
 }
 
 #intermediate-bar {
-    background-color: darkorange;
+    background-color: #B7D6F8;
 }
 
 #intermediate-text {
-    color: darkorange;
+    color: #B7D6F8;
 }
 
 #last-left {
