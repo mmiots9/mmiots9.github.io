@@ -1,5 +1,12 @@
 const projectsSource = [
     {
+        "title": "R for biologist",
+        "url": "https://mmiots9.github.io/R-for-biologist",
+        "img": "images/R-for-biologist.png",
+        "alt": "R for biologist project image",
+        "description": "In this book I explain how to use R for biologist, in a practical and easy-to-follow manner.",
+    },
+    {
         "title": "Labnotebook",
         "url": "https://github.com/mmiots9/labnotebook",
         "img": "images/labnotebook.png",
@@ -27,13 +34,7 @@ const projectsSource = [
         "alt": "Lodutilities project image",
         "description": "Here you can find useful functions I created for my job in the Neurodevelopment lab in Humanitas.",
     },
-    {
-        "title": "R for biologist",
-        "url": "https://mmiots9.github.io/R-for-biologist",
-        "img": "images/R-for-biologist.png",
-        "alt": "R for biologist project image",
-        "description": "In this book I explain how to use R for biologist, in a practical and easy-to-follow manner.",
-    },
+    
     {
         "title": "Darts app",
         "url": "https://github.com/mmiots9/Darts_app",
