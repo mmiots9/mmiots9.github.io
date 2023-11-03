@@ -7,11 +7,18 @@ const projectsSource = [
         "description": "In this book I explain how to use R for biologist, in a practical and easy-to-follow manner.",
     },
     {
-        "title": "Labnotebook",
-        "url": "https://github.com/mmiots9/labnotebook",
+        "title": "Pyabnotebook",
+        "url": "https://github.com/mmiots9/pylabnotebook",
         "img": "images/labnotebook.png",
         "alt": "Labnotebook project image",
-        "description": "This project aims to help bioinformaticians in creating the so called <em>Laboratory notebook</em> in an automatic way.",
+        "description": "This project (python <u><a href='https://pypi.org/project/pylabnotebook/' target='_blank'>package</a></u>) aims to help bioinformaticians in creating the so called <em>Laboratory notebook</em> in an automatic way.",
+    },
+    {
+        "title": "Startnewproject",
+        "url": "https://github.com/mmiots9/startnewproject",
+        "img": "images/startnewproject.png",
+        "alt": "Startnewproject project image",
+        "description": "This project (python <u><a href='https://pypi.org/project/startnewproject/' target='_blank'>package</a></u>) helps by creating a new folder for a project with specified subfolders, README files, git and pylabnotebook initialized.",
     },
     {
         "title": "Bash functions",
