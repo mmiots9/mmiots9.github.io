@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xml_ns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url xml_ns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
     <loc>https://mmiots9.github.io/R-for-biologist/</loc>
     <changefreq>daily</changefreq>
   </url>
