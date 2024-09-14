@@ -46,10 +46,6 @@ p, li{
     margin-top: 0.2rem;
 }
 
-#job-container li {
-    margin-left: 2rem;
-}
-
 ul {
     margin: 0 0 0.5rem 0;
 }
@@ -93,6 +89,10 @@ p.job-location {
 
 .job-main-activity-title {
     margin: 0.5rem 0 0 0;
+}
+
+.job-main-activity-list {
+    margin-left: 2rem;
 }
 
 .job-period {
