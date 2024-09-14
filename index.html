@@ -1,264 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="My personal portfolio page. Who am I, my work, my projects and my interests">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="My personal portfolio page. Who am I, my work, my projects and my interests"
+    />
     <title>mmiots9 portfolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YDEBEF61BH"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YDEBEF61BH"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-YDEBEF61BH');
+      gtag("config", "G-YDEBEF61BH");
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main" id="home">
-        <!-- NAVBAR -->
-        <div class="navbar">
-            <ul>
-                <li style="float:left"><a class="active" id="last-left" href="#home">Home</a></li>
-                <li><a href="#job-container" id="last-right">CV</a></li>
-                <li><a href="#my-projects-container">My projects</a></li>
-                <li><a href="#whoami-container">About me</a></li>
-                
-                
-            </ul>
-        </div>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <ul>
+          <li style="float: left">
+            <a class="active" id="last-left" href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#job-container" id="last-right">Working Experiences</a>
+          </li>
+          <li><a href="#my-projects-container">My projects</a></li>
+          <li><a href="#whoami-container">About me</a></li>
+        </ul>
+      </div>
 
-        <!-- HEADER -->
-        <header>
-            <img id="header-img" src="images/header.png" alt="header image">
-        </header>
-        
-        <!-- WHO AM I -->
-        <div class="div-container" id="whoami-container">
-            
-            <img class="profile-picture" alt="my-profile-picture" src="images/me.png">
-        
-            <div class="description-text-container">
-                <p id="hi">Hi!</p>
-                <p id="my-description">
-                    I'm Matteo Miotto, a junior bioinformatician from Milan with the passion for
-                    developing.<br>
-                    This is my portfolio, where you can find info about me and my ongoing projects.
+      <!-- HEADER -->
+      <header>
+        <img id="header-img" src="images/header.png" alt="header image" />
+      </header>
+
+      <!-- WHO AM I -->
+      <div class="div-container" id="whoami-container">
+        <img
+          class="profile-picture"
+          alt="my-profile-picture"
+          src="images/me.png"
+        />
+
+        <div class="description-text-container">
+          <p id="hi">Hi!</p>
+          <p id="my-description">
+            I'm Matteo Miotto, a junior bioinformatician from Milan with the
+            passion for developing.<br />
+            This is my portfolio, where you can find info about me and my
+            ongoing projects.
+          </p>
+        </div>
+      </div>
+      <hr />
+
+      <!-- MY PROJECTS -->
+      <div class="div-container" id="my-projects-container">
+        <h2 class="container-main-title">My projects</h2>
+        <div class="projects-box-cont"></div>
+      </div>
+      <hr />
+
+      <!-- WORKING EXPERIENCES  -->
+      <div class="div-container" id="job-container">
+        <h2 class="container-main-title">Working Experiences</h2>
+        <table class="job-table">
+          <tr>
+            <td class="job-period-col">
+              <p class="job-period">Jan 2024 - Present</p>
+            </td>
+            <td>
+              <div class="job-description-cell">
+                <h3 class="job-title">CEO, Co-funder & Developer</h3>
+                <p class="job-location">
+                  <a href="https://www.msforge.it/" target="_blank"
+                    >MSForge srls</a
+                  >
                 </p>
-            </div>
-                
+                <p class="job-main-activity-title">Main activities:</p>
+                <ul>
+                  <li>Application development (MSInside)</li>
+                  <li>Api development</li>
+                  <li>Server Managment</li>
+                  <li>Accounting</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="job-period-col">
+              <p class="job-period">Dec 2021 - Present</p>
+            </td>
+            <td>
+              <div class="job-description-cell">
+                <h3 class="job-title">Bioinformatician</h3>
+                <p class="job-location">
+                  Neurodevelopment lab - Humanitas Research Institute
+                </p>
+                <p class="job-main-activity-title">Main activities:</p>
+                <ul>
+                  <li>
+                    Developing data analysis pipelines and managing genomic data
+                  </li>
+                  <li>Single Cell analysis (DGE and interactome)</li>
+                  <li>Bulk-RNA seq analysis</li>
+                  <li>RNA splicing analysis</li>
+                  <li>Development of functions for data analysis</li>
+                  <li>Spatial lipidomics analysis</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="job-period-col">
+              <p class="job-period">Oct 2019 - Jan 2021</p>
+            </td>
+            <td>
+              <div class="job-description-cell">
+                <h3 class="job-title">Internship</h3>
+                <p class="job-location">
+                  Viral Pathogens and Biosafety Unit - San Raffaele Hospital
+                </p>
+                <p class="job-main-activity-title">Main activities:</p>
+                <ul>
+                  <li>
+                    Research on the relationship between Zika Virus and
+                    polarized macrophages through gene expression analysis
+                  </li>
+                  <li>PCR data analysis automatization</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <hr />
+
+      <!-- CODING SKILLS -->
+      <div class="div-container" id="coding-container">
+        <h2 class="container-main-title">Coding skills</h2>
+        <table id="coding-skills-table">
+          <tr>
+            <td class="coding-language-td">
+              <p>R</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="advanced-bar"></span>
+              <span class="level-bar" id="advanced-bar"></span>
+              <span class="level-bar" id="advanced-bar"></span>
+              <p class="level-text" id="advanced-text">Advanced</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>Bash</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="intermediate-bar"></span>
+              <span class="level-bar" id="intermediate-bar"></span>
+              <p class="level-text" id="intermediate-text">Intemediate</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>Git</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="intermediate-bar"></span>
+              <span class="level-bar" id="intermediate-bar"></span>
+              <p class="level-text" id="intermediate-text">Intemediate</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>Python</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="intermediate-bar"></span>
+              <span class="level-bar" id="intermediate-bar"></span>
+              <p class="level-text" id="intermediate-text">Intemediate</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>Flask</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="base-bar"></span>
+              <p class="level-text" id="base-text">Base</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>HTML</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="base-bar"></span>
+              <p class="level-text" id="base-text">Base</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>CSS</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="base-bar"></span>
+              <p class="level-text" id="base-text">Base</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>JavaScript</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="base-bar"></span>
+              <p class="level-text" id="base-text">Base</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>MySQL</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="base-bar"></span>
+              <p class="level-text" id="base-text">Base</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>PostgreSQL</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="base-bar"></span>
+              <p class="level-text" id="base-text">Base</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="coding-language-td">
+              <p>Linux OS</p>
+            </td>
+            <td class="second-column-coding-skill">
+              <span class="level-bar" id="base-bar"></span>
+              <p class="level-text" id="base-text">Base</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="social">
+          <a
+            href="mailto: miotsdata@gmail.com"
+            title="email"
+            aria-label="email"
+            target="_blank"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="none" d="M0 0h24v24H0V0z"></path>
+              <path
+                fill="currentColor"
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://github.com/mmiots9"
+            title="github"
+            aria-label="github"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 24 24"
+              version="1.1"
+            >
+              <g id="surface3680">
+                <path
+                  fill="currentColor"
+                  d="M 10.898438 2.101562 C 6.300781 2.601562 2.601562 6.300781 2.101562 10.800781 C 1.601562 15.5 4.300781 19.699219 8.398438 21.300781 C 8.699219 21.398438 9 21.199219 9 20.800781 L 9 19.199219 C 9 19.199219 8.601562 19.300781 8.101562 19.300781 C 6.699219 19.300781 6.101562 18.101562 6 17.398438 C 5.898438 17 5.699219 16.699219 5.398438 16.398438 C 5.101562 16.300781 5 16.300781 5 16.199219 C 5 16 5.300781 16 5.398438 16 C 6 16 6.5 16.699219 6.699219 17 C 7.199219 17.800781 7.800781 18 8.101562 18 C 8.5 18 8.800781 17.898438 9 17.800781 C 9.101562 17.101562 9.398438 16.398438 10 16 C 7.699219 15.5 6 14.199219 6 12 C 6 10.898438 6.5 9.800781 7.199219 9 C 7.101562 8.800781 7 8.300781 7 7.601562 C 7 7.199219 7 6.601562 7.300781 6 C 7.300781 6 8.699219 6 10.101562 7.300781 C 10.601562 7.101562 11.300781 7 12 7 C 12.699219 7 13.398438 7.101562 14 7.300781 C 15.300781 6 16.800781 6 16.800781 6 C 17 6.601562 17 7.199219 17 7.601562 C 17 8.398438 16.898438 8.800781 16.800781 9 C 17.5 9.800781 18 10.800781 18 12 C 18 14.199219 16.300781 15.5 14 16 C 14.601562 16.5 15 17.398438 15 18.300781 L 15 20.898438 C 15 21.199219 15.300781 21.5 15.699219 21.398438 C 19.398438 19.898438 22 16.300781 22 12.101562 C 22 6.101562 16.898438 1.398438 10.898438 2.101562 Z M 10.898438 2.101562 "
+                ></path>
+              </g>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.instagram.com/m.miots/"
+            title="instagram"
+            aria-label="instagram"
+            target="_blank"
+          >
+            <svg
+              fill="#000000"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+            >
+              <path
+                fill="currentColor"
+                d="M 11.46875 5 C 7.917969 5 5 7.914063 5 11.46875 L 5 20.53125 C 5 24.082031 7.914063 27 11.46875 27 L 20.53125 27 C 24.082031 27 27 24.085938 27 20.53125 L 27 11.46875 C 27 7.917969 24.085938 5 20.53125 5 Z M 11.46875 7 L 20.53125 7 C 23.003906 7 25 8.996094 25 11.46875 L 25 20.53125 C 25 23.003906 23.003906 25 20.53125 25 L 11.46875 25 C 8.996094 25 7 23.003906 7 20.53125 L 7 11.46875 C 7 8.996094 8.996094 7 11.46875 7 Z M 21.90625 9.1875 C 21.402344 9.1875 21 9.589844 21 10.09375 C 21 10.597656 21.402344 11 21.90625 11 C 22.410156 11 22.8125 10.597656 22.8125 10.09375 C 22.8125 9.589844 22.410156 9.1875 21.90625 9.1875 Z M 16 10 C 12.699219 10 10 12.699219 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 12.699219 19.300781 10 16 10 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/matteo-miotto/"
+            title="linkedin"
+            aria-label="linkedin"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#000000"
+              viewBox="0 0 30 30"
+            >
+              <path
+                fill="currentColor"
+                d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"
+              ></path>
+            </svg>
+          </a>
         </div>
-        <hr>
-
-        <!-- MY PROJECTS -->
-        <div class="div-container" id="my-projects-container">
-            <h2 class="container-main-title">My projects</h2>
-            <div class="projects-box-cont">
-
-            </div>
-            
-        </div>
-        <hr>
-
-        <!-- WORKING EXPERIENCES  -->
-        <div class="div-container" id="job-container">
-            <h2 class="container-main-title">Working Experiences</h2>
-            <table class="job-table">
-                <tr>
-                    <td class="job-period-col">
-                        <p class="job-period">Dec 2021 - Present</p>
-                    </td>
-                    <td>
-                        <div class="job-description-cell">
-                            <h3 class="job-title">Bioinformatician</h3>
-                            <p class="job-location">Neurodevelopment lab - Humanitas Research Institute</p>
-                            <p class="job-main-activity-title">Main activities:</p>
-                            <ul>
-                                <li>Developing data analysis pipelines and managing genomic data</li>
-                                <li>Single Cell analysis (DGE and interactome)</li>
-                                <li>Bulk-RNA seq analysis</li>
-                                <li>RNA splicing analysis</li>
-                                <li>Development of functions for data analysis</li>
-                                <li>Lipidomics analysis</li>
-                            </ul>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="job-period-col">
-                        <p class="job-period">Oct 2019 - Jan 2021</p>
-                    </td>
-                    <td>
-                        <div class="job-description-cell">
-                            <h3 class="job-title">Internship</h3>
-                            <p class="job-location">Viral Pathogens and Biosafety Unit - San Raffaele Hospital</p>
-                            <p class="job-main-activity-title">Main activities:</p>
-                            <ul>
-                                <li>Research on the relationship between Zika Virus and polarized
-                                    macrophages through gene expression analysis</li>
-                                <li>PCR data analysis automatization</li>
-                            </ul>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        
-        </div>
-        <hr>
-
-        <!-- CODING SKILLS -->
-        <div class="div-container" id="coding-container ">
-            <h2 class="container-main-title">Coding skills</h2>
-            <table id="coding-skills-table">
-                <tr>
-                    <td class="coding-language-td">
-                        <p>R</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="advanced-bar"></span>
-                        <span class="level-bar" id="advanced-bar"></span>
-                        <span class="level-bar" id="advanced-bar"></span>
-                        <p class="level-text" id="advanced-text">Advanced</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>Bash</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="intermediate-bar"></span>
-                        <span class="level-bar" id="intermediate-bar"></span>
-                        <p class="level-text" id="intermediate-text">Intemediate</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>Git</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="intermediate-bar"></span>
-                        <span class="level-bar" id="intermediate-bar"></span>
-                        <p class="level-text" id="intermediate-text">Intemediate</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>Python</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="intermediate-bar"></span>
-                        <span class="level-bar" id="intermediate-bar"></span>
-                        <p class="level-text" id="intermediate-text">Intemediate</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>Flask</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="base-bar"></span>
-                        <p class="level-text" id="base-text">Base</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>HTML</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="base-bar"></span>
-                        <p class="level-text" id="base-text">Base</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>CSS</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="base-bar"></span>
-                        <p class="level-text" id="base-text">Base</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>JavaScript</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="base-bar"></span>
-                        <p class="level-text" id="base-text">Base</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>MySQL</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="base-bar"></span>
-                        <p class="level-text" id="base-text">Base</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coding-language-td">
-                        <p>PostgreSQL</p>
-                    </td>
-                    <td class="second-column-coding-skill">
-                        <span class="level-bar" id="base-bar"></span>
-                        <p class="level-text" id="base-text">Base</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-
-        <!-- FOOTER -->
-        <footer>
-            <div class="social">
-        
-                <a href="mailto: miotsdata@gmail.com" title="email" aria-label="email" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path fill="none" d="M0 0h24v24H0V0z"></path>
-                        <path fill="currentColor"
-                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z">
-                        </path>
-                    </svg>
-                </a>
-        
-                <a href="https://github.com/mmiots9" title="github" aria-label="github" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        viewBox="0 0 24 24" version="1.1">
-                        <g id="surface3680">
-                            <path fill="currentColor"
-                                d="M 10.898438 2.101562 C 6.300781 2.601562 2.601562 6.300781 2.101562 10.800781 C 1.601562 15.5 4.300781 19.699219 8.398438 21.300781 C 8.699219 21.398438 9 21.199219 9 20.800781 L 9 19.199219 C 9 19.199219 8.601562 19.300781 8.101562 19.300781 C 6.699219 19.300781 6.101562 18.101562 6 17.398438 C 5.898438 17 5.699219 16.699219 5.398438 16.398438 C 5.101562 16.300781 5 16.300781 5 16.199219 C 5 16 5.300781 16 5.398438 16 C 6 16 6.5 16.699219 6.699219 17 C 7.199219 17.800781 7.800781 18 8.101562 18 C 8.5 18 8.800781 17.898438 9 17.800781 C 9.101562 17.101562 9.398438 16.398438 10 16 C 7.699219 15.5 6 14.199219 6 12 C 6 10.898438 6.5 9.800781 7.199219 9 C 7.101562 8.800781 7 8.300781 7 7.601562 C 7 7.199219 7 6.601562 7.300781 6 C 7.300781 6 8.699219 6 10.101562 7.300781 C 10.601562 7.101562 11.300781 7 12 7 C 12.699219 7 13.398438 7.101562 14 7.300781 C 15.300781 6 16.800781 6 16.800781 6 C 17 6.601562 17 7.199219 17 7.601562 C 17 8.398438 16.898438 8.800781 16.800781 9 C 17.5 9.800781 18 10.800781 18 12 C 18 14.199219 16.300781 15.5 14 16 C 14.601562 16.5 15 17.398438 15 18.300781 L 15 20.898438 C 15 21.199219 15.300781 21.5 15.699219 21.398438 C 19.398438 19.898438 22 16.300781 22 12.101562 C 22 6.101562 16.898438 1.398438 10.898438 2.101562 Z M 10.898438 2.101562 ">
-                            </path>
-                        </g>
-                    </svg>
-        
-                </a>
-        
-                <a href="https://www.instagram.com/m.miots/" title="instagram" aria-label="instagram" target="_blank">
-                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                        <path fill="currentColor"
-                            d="M 11.46875 5 C 7.917969 5 5 7.914063 5 11.46875 L 5 20.53125 C 5 24.082031 7.914063 27 11.46875 27 L 20.53125 27 C 24.082031 27 27 24.085938 27 20.53125 L 27 11.46875 C 27 7.917969 24.085938 5 20.53125 5 Z M 11.46875 7 L 20.53125 7 C 23.003906 7 25 8.996094 25 11.46875 L 25 20.53125 C 25 23.003906 23.003906 25 20.53125 25 L 11.46875 25 C 8.996094 25 7 23.003906 7 20.53125 L 7 11.46875 C 7 8.996094 8.996094 7 11.46875 7 Z M 21.90625 9.1875 C 21.402344 9.1875 21 9.589844 21 10.09375 C 21 10.597656 21.402344 11 21.90625 11 C 22.410156 11 22.8125 10.597656 22.8125 10.09375 C 22.8125 9.589844 22.410156 9.1875 21.90625 9.1875 Z M 16 10 C 12.699219 10 10 12.699219 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 12.699219 19.300781 10 16 10 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z">
-                        </path>
-                    </svg>
-                </a>
-        
-                <a href="https://www.linkedin.com/in/matteo-miotto/" title="linkedin" aria-label="linkedin" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 30 30">
-                        <path fill="currentColor"
-                            d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z">
-                        </path>
-                    </svg>
-        
-                </a>
-            </div>
-            <p id="credits">©2022, All Rights Reserved</p>
-        </footer>
+        <p id="credits">©2024, All Rights Reserved</p>
+      </footer>
     </div>
     <!-- Javascript -->
     <script src="./js/projectsList.js"></script>
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
